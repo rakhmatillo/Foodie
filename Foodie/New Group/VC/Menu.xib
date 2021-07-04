@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,6 +11,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Menu" customModule="Foodie" customModuleProvider="target">
             <connections>
                 <outlet property="bigBackgroundView" destination="O58-sR-yk2" id="hRq-cL-AAn"/>
+                <outlet property="buttonDismis" destination="HET-Sj-A66" id="0JS-u5-s52"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -22,7 +23,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O58-sR-yk2">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                     <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" spacing="222" translatesAutoresizingMaskIntoConstraints="NO" id="R7Q-ZR-OnK">
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="222" translatesAutoresizingMaskIntoConstraints="NO" id="R7Q-ZR-OnK">
                             <rect key="frame" x="30" y="52" width="354" height="66"/>
                             <subviews>
                                 <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVh-uV-2VA">
@@ -43,15 +44,26 @@
                                     </constraints>
                                 </view>
                             </subviews>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="66" id="B4e-LK-iKz"/>
-                                <constraint firstAttribute="width" constant="354" id="CGq-r5-acl"/>
-                            </constraints>
                         </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HET-Sj-A66">
+                            <rect key="frame" x="433.5" y="0.0" width="227.5" height="896"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="896" id="DOw-v7-Gup"/>
+                            </constraints>
+                            <connections>
+                                <action selector="menuDismisButton:" destination="-1" eventType="touchUpInside" id="sKN-Or-xgZ"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
+                        <constraint firstItem="HET-Sj-A66" firstAttribute="width" secondItem="O58-sR-yk2" secondAttribute="width" multiplier="0.55" id="2DF-sf-3A1"/>
+                        <constraint firstAttribute="bottom" secondItem="HET-Sj-A66" secondAttribute="bottom" id="3YJ-7g-gXL"/>
                         <constraint firstItem="R7Q-ZR-OnK" firstAttribute="leading" secondItem="O58-sR-yk2" secondAttribute="leading" constant="30" id="I5V-5x-90G"/>
+                        <constraint firstAttribute="trailing" secondItem="HET-Sj-A66" secondAttribute="trailing" constant="-247" id="Zyb-h7-8LS"/>
+                        <constraint firstItem="R7Q-ZR-OnK" firstAttribute="width" secondItem="O58-sR-yk2" secondAttribute="width" multiplier="0.855072" id="avg-s1-1uR"/>
+                        <constraint firstItem="HET-Sj-A66" firstAttribute="top" secondItem="O58-sR-yk2" secondAttribute="top" id="nmt-vF-FiC"/>
                         <constraint firstItem="R7Q-ZR-OnK" firstAttribute="top" secondItem="O58-sR-yk2" secondAttribute="top" constant="52" id="w7H-ip-NOP"/>
                     </constraints>
                 </view>
