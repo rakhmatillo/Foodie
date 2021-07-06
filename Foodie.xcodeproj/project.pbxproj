@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A35E73226946FC100ABC6D2 /* BranchesMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A35E73026946FC100ABC6D2 /* BranchesMapVC.swift */; };
+		8A35E73326946FC100ABC6D2 /* BranchesMapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A35E73126946FC100ABC6D2 /* BranchesMapVC.xib */; };
 		8A467D102691A7A300C1054D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A467D0E2691A7A300C1054D /* Menu.swift */; };
 		8A467D112691A7A300C1054D /* Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A467D0F2691A7A300C1054D /* Menu.xib */; };
 		DCB902222691A56400A95EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB902212691A56400A95EAE /* AppDelegate.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A35E73026946FC100ABC6D2 /* BranchesMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchesMapVC.swift; sourceTree = "<group>"; };
+		8A35E73126946FC100ABC6D2 /* BranchesMapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BranchesMapVC.xib; sourceTree = "<group>"; };
 		8A467D0E2691A7A300C1054D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		8A467D0F2691A7A300C1054D /* Menu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Menu.xib; sourceTree = "<group>"; };
 		DCB9021E2691A56400A95EAE /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +55,8 @@
 			children = (
 				8A467D0E2691A7A300C1054D /* Menu.swift */,
 				8A467D0F2691A7A300C1054D /* Menu.xib */,
+				8A35E73026946FC100ABC6D2 /* BranchesMapVC.swift */,
+				8A35E73126946FC100ABC6D2 /* BranchesMapVC.xib */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -144,6 +150,7 @@
 				DCB902312691A56700A95EAE /* LaunchScreen.storyboard in Resources */,
 				DCB9022E2691A56700A95EAE /* Assets.xcassets in Resources */,
 				8A467D112691A7A300C1054D /* Menu.xib in Resources */,
+				8A35E73326946FC100ABC6D2 /* BranchesMapVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +164,7 @@
 				DCB9022C2691A56400A95EAE /* Foodie.xcdatamodeld in Sources */,
 				DCB902222691A56400A95EAE /* AppDelegate.swift in Sources */,
 				8A467D102691A7A300C1054D /* Menu.swift in Sources */,
+				8A35E73226946FC100ABC6D2 /* BranchesMapVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
