@@ -18,6 +18,9 @@ class Menu: UIViewController {
     @IBOutlet var labels: [UILabel]!
     
     
+    
+    
+    
     @IBOutlet var lines: [UIView]!
     override func viewDidLoad() {
         super.viewDidLoad()
