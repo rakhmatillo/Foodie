@@ -3,29 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9403018A26930B1000C8DBF6 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9403018926930B1000C8DBF6 /* Tabbar.swift */; };
+		9403018D26930C1D00C8DBF6 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9403018B26930C1D00C8DBF6 /* SecondVC.swift */; };
+		9403018E26930C1D00C8DBF6 /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9403018C26930C1D00C8DBF6 /* SecondVC.xib */; };
+		9403019226933D1F00C8DBF6 /* FoodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9403019026933D1F00C8DBF6 /* FoodsCell.swift */; };
+		9403019326933D1F00C8DBF6 /* FoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9403019126933D1F00C8DBF6 /* FoodsCell.xib */; };
+		94030196269393C500C8DBF6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94030194269393C500C8DBF6 /* CollectionViewCell.swift */; };
+		94030197269393C500C8DBF6 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94030195269393C500C8DBF6 /* CollectionViewCell.xib */; };
+		9403019A2694524000C8DBF6 /* SeeMoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940301982694524000C8DBF6 /* SeeMoreVC.swift */; };
+		9403019B2694524000C8DBF6 /* SeeMoreVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940301992694524000C8DBF6 /* SeeMoreVC.xib */; };
+		944798382691A93400A6DB1A /* DeliciousFoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944798362691A93400A6DB1A /* DeliciousFoodVC.swift */; };
+		944798392691A93400A6DB1A /* DeliciousFoodVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944798372691A93400A6DB1A /* DeliciousFoodVC.xib */; };
+		9B51BD2C6825CA7B6B2638B4 /* Pods_Foodie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E374B5F7D49EE6510D5E18C6 /* Pods_Foodie.framework */; };
 		DCB902222691A56400A95EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB902212691A56400A95EAE /* AppDelegate.swift */; };
-		DCB902242691A56400A95EAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB902232691A56400A95EAE /* SceneDelegate.swift */; };
-		DCB902262691A56400A95EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB902252691A56400A95EAE /* ViewController.swift */; };
-		DCB902292691A56400A95EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB902272691A56400A95EAE /* Main.storyboard */; };
 		DCB9022C2691A56400A95EAE /* Foodie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCB9022A2691A56400A95EAE /* Foodie.xcdatamodeld */; };
 		DCB9022E2691A56700A95EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB9022D2691A56700A95EAE /* Assets.xcassets */; };
 		DCB902312691A56700A95EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB9022F2691A56700A95EAE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C62D8F3AEFEF9B85490E1C4 /* Pods-Foodie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodie.release.xcconfig"; path = "Target Support Files/Pods-Foodie/Pods-Foodie.release.xcconfig"; sourceTree = "<group>"; };
+		4A135ED7B7FB28A9F5F100A8 /* Pods-Foodie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodie.debug.xcconfig"; path = "Target Support Files/Pods-Foodie/Pods-Foodie.debug.xcconfig"; sourceTree = "<group>"; };
+		9403018926930B1000C8DBF6 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		9403018B26930C1D00C8DBF6 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		9403018C26930C1D00C8DBF6 /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		9403019026933D1F00C8DBF6 /* FoodsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsCell.swift; sourceTree = "<group>"; };
+		9403019126933D1F00C8DBF6 /* FoodsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodsCell.xib; sourceTree = "<group>"; };
+		94030194269393C500C8DBF6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		94030195269393C500C8DBF6 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		940301982694524000C8DBF6 /* SeeMoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeMoreVC.swift; sourceTree = "<group>"; };
+		940301992694524000C8DBF6 /* SeeMoreVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeeMoreVC.xib; sourceTree = "<group>"; };
+		944798362691A93400A6DB1A /* DeliciousFoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliciousFoodVC.swift; sourceTree = "<group>"; };
+		944798372691A93400A6DB1A /* DeliciousFoodVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeliciousFoodVC.xib; sourceTree = "<group>"; };
 		DCB9021E2691A56400A95EAE /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB902212691A56400A95EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCB902232691A56400A95EAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DCB902252691A56400A95EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DCB902282691A56400A95EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCB9022B2691A56400A95EAE /* Foodie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodie.xcdatamodel; sourceTree = "<group>"; };
 		DCB9022D2691A56700A95EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCB902302691A56700A95EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCB902322691A56700A95EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E374B5F7D49EE6510D5E18C6 /* Pods_Foodie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B51BD2C6825CA7B6B2638B4 /* Pods_Foodie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		777C05D3417EAA184E334721 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E374B5F7D49EE6510D5E18C6 /* Pods_Foodie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9403018826930AF000C8DBF6 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				9403018926930B1000C8DBF6 /* Tabbar.swift */,
+				9403018B26930C1D00C8DBF6 /* SecondVC.swift */,
+				9403018C26930C1D00C8DBF6 /* SecondVC.xib */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		9403018F26933CE600C8DBF6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9403019026933D1F00C8DBF6 /* FoodsCell.swift */,
+				9403019126933D1F00C8DBF6 /* FoodsCell.xib */,
+				94030194269393C500C8DBF6 /* CollectionViewCell.swift */,
+				94030195269393C500C8DBF6 /* CollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		944798342691A6CC00A6DB1A /* Ahliddin */ = {
+			isa = PBXGroup;
+			children = (
+				9403018F26933CE600C8DBF6 /* Cell */,
+				944798352691A6D600A6DB1A /* Vc */,
+			);
+			path = Ahliddin;
+			sourceTree = "<group>";
+		};
+		944798352691A6D600A6DB1A /* Vc */ = {
+			isa = PBXGroup;
+			children = (
+				9403018826930AF000C8DBF6 /* Tabbar */,
+				944798362691A93400A6DB1A /* DeliciousFoodVC.swift */,
+				944798372691A93400A6DB1A /* DeliciousFoodVC.xib */,
+				940301982694524000C8DBF6 /* SeeMoreVC.swift */,
+				940301992694524000C8DBF6 /* SeeMoreVC.xib */,
+			);
+			path = Vc;
+			sourceTree = "<group>";
+		};
+		9EEE637C63228E757FE062BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A135ED7B7FB28A9F5F100A8 /* Pods-Foodie.debug.xcconfig */,
+				3C62D8F3AEFEF9B85490E1C4 /* Pods-Foodie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DCB902152691A56300A95EAE = {
 			isa = PBXGroup;
 			children = (
 				DCB902202691A56400A95EAE /* Foodie */,
 				DCB9021F2691A56400A95EAE /* Products */,
+				9EEE637C63228E757FE062BF /* Pods */,
+				777C05D3417EAA184E334721 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +140,8 @@
 		DCB902202691A56400A95EAE /* Foodie */ = {
 			isa = PBXGroup;
 			children = (
+				944798342691A6CC00A6DB1A /* Ahliddin */,
 				DCB902212691A56400A95EAE /* AppDelegate.swift */,
-				DCB902232691A56400A95EAE /* SceneDelegate.swift */,
-				DCB902252691A56400A95EAE /* ViewController.swift */,
-				DCB902272691A56400A95EAE /* Main.storyboard */,
 				DCB9022D2691A56700A95EAE /* Assets.xcassets */,
 				DCB9022F2691A56700A95EAE /* LaunchScreen.storyboard */,
 				DCB902322691A56700A95EAE /* Info.plist */,
@@ -77,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCB902352691A56700A95EAE /* Build configuration list for PBXNativeTarget "Foodie" */;
 			buildPhases = (
+				C9EB667CF7F0F520CF8217CA /* [CP] Check Pods Manifest.lock */,
 				DCB9021A2691A56400A95EAE /* Sources */,
 				DCB9021B2691A56400A95EAE /* Frameworks */,
 				DCB9021C2691A56400A95EAE /* Resources */,
+				5DE9DC7F5D45A1EE981EB8CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,37 +209,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9403019326933D1F00C8DBF6 /* FoodsCell.xib in Resources */,
+				944798392691A93400A6DB1A /* DeliciousFoodVC.xib in Resources */,
+				94030197269393C500C8DBF6 /* CollectionViewCell.xib in Resources */,
 				DCB902312691A56700A95EAE /* LaunchScreen.storyboard in Resources */,
+				9403018E26930C1D00C8DBF6 /* SecondVC.xib in Resources */,
 				DCB9022E2691A56700A95EAE /* Assets.xcassets in Resources */,
-				DCB902292691A56400A95EAE /* Main.storyboard in Resources */,
+				9403019B2694524000C8DBF6 /* SeeMoreVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DE9DC7F5D45A1EE981EB8CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodie/Pods-Foodie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodie/Pods-Foodie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foodie/Pods-Foodie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9EB667CF7F0F520CF8217CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foodie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DCB9021A2691A56400A95EAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCB902262691A56400A95EAE /* ViewController.swift in Sources */,
 				DCB9022C2691A56400A95EAE /* Foodie.xcdatamodeld in Sources */,
+				9403018D26930C1D00C8DBF6 /* SecondVC.swift in Sources */,
+				944798382691A93400A6DB1A /* DeliciousFoodVC.swift in Sources */,
+				9403019A2694524000C8DBF6 /* SeeMoreVC.swift in Sources */,
+				94030196269393C500C8DBF6 /* CollectionViewCell.swift in Sources */,
 				DCB902222691A56400A95EAE /* AppDelegate.swift in Sources */,
-				DCB902242691A56400A95EAE /* SceneDelegate.swift in Sources */,
+				9403018A26930B1000C8DBF6 /* Tabbar.swift in Sources */,
+				9403019226933D1F00C8DBF6 /* FoodsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DCB902272691A56400A95EAE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCB902282691A56400A95EAE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DCB9022F2691A56700A95EAE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +411,7 @@
 		};
 		DCB902362691A56700A95EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A135ED7B7FB28A9F5F100A8 /* Pods-Foodie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +430,7 @@
 		};
 		DCB902372691A56700A95EAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C62D8F3AEFEF9B85490E1C4 /* Pods-Foodie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
