@@ -71,7 +71,12 @@ extension BranchesMapVC : MKMapViewDelegate{
         }
         
         switch annotation.title {
-        case pin1.title: annotationView?.image = UIImage(named: "logo")
+        case pin1.title: annotationView?.image = UIImage(named: "mini")
+        case pin2.title: annotationView?.image = UIImage(named: "mini")
+        case pin3.title: annotationView?.image = UIImage(named: "mini")
+        case pin4.title: annotationView?.image = UIImage(named: "mini")
+        case pin5.title: annotationView?.image = UIImage(named: "mini")
+            
             
         default:
             break
