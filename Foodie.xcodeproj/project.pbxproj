@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
+
 		4D25BE7C2691A73B0043B210 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE7A2691A73B0043B210 /* ProfileVC.swift */; };
 		4D25BE7D2691A73B0043B210 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D25BE7B2691A73B0043B210 /* ProfileVC.xib */; };
 		4D25BE802691C6B20043B210 /* PresonalDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE7E2691C6B20043B210 /* PresonalDetailsVC.swift */; };
@@ -17,6 +19,7 @@
 		573139C42692B30500BE6FA6 /* CartTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573139C22692B30500BE6FA6 /* CartTVC.xib */; };
 		577A6BE02694666D0002671F /* OrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577A6BDE2694666D0002671F /* OrderVC.swift */; };
 		577A6BE12694666D0002671F /* OrderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577A6BDF2694666D0002671F /* OrderVC.xib */; };
+
 		DCB902222691A56400A95EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB902212691A56400A95EAE /* AppDelegate.swift */; };
 		DCB9022C2691A56400A95EAE /* Foodie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCB9022A2691A56400A95EAE /* Foodie.xcdatamodeld */; };
 		DCB9022E2691A56700A95EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB9022D2691A56700A95EAE /* Assets.xcassets */; };
@@ -29,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+
 		4D25BE7A2691A73B0043B210 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		4D25BE7B2691A73B0043B210 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		4D25BE7E2691C6B20043B210 /* PresonalDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresonalDetailsVC.swift; sourceTree = "<group>"; };
@@ -39,6 +43,7 @@
 		573139C22692B30500BE6FA6 /* CartTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTVC.xib; sourceTree = "<group>"; };
 		577A6BDE2694666D0002671F /* OrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVC.swift; sourceTree = "<group>"; };
 		577A6BDF2694666D0002671F /* OrderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderVC.xib; sourceTree = "<group>"; };
+
 		DCB9021E2691A56400A95EAE /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB902212691A56400A95EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCB9022B2691A56400A95EAE /* Foodie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodie.xcdatamodel; sourceTree = "<group>"; };
@@ -63,6 +68,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+
+		8AC46EE52691B28900F5C6C0 /* Dilshod */ = {
+			isa = PBXGroup;
+			children = (
+				8AC46EE62691B29600F5C6C0 /* VC */,
+			);
+			name = Dilshod;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		8AC46EE62691B29600F5C6C0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				8A467D0E2691A7A300C1054D /* Menu.swift */,
+				8A467D0F2691A7A300C1054D /* Menu.xib */,
+				8A35E73026946FC100ABC6D2 /* BranchesMapVC.swift */,
+				8A35E73126946FC100ABC6D2 /* BranchesMapVC.xib */,
+			);
+			path = VC;
+
 		573139B42692B0C700BE6FA6 /* ShaxzodVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,7 @@
 				573139C22692B30500BE6FA6 /* CartTVC.xib */,
 			);
 			path = ShaxzodTVC;
+
 			sourceTree = "<group>";
 		};
 		DCB902152691A56300A95EAE = {
@@ -102,7 +128,9 @@
 		DCB902202691A56400A95EAE /* Foodie */ = {
 			isa = PBXGroup;
 			children = (
+
 				DCB9026B26958C8100A95EAE /* Alibek */,
+
 				573139C02692B2EA00BE6FA6 /* ShaxzodTVC */,
 				573139B42692B0C700BE6FA6 /* ShaxzodVC */,
 				DCB902212691A56400A95EAE /* AppDelegate.swift */,
@@ -110,6 +138,7 @@
 				4D25BE7B2691A73B0043B210 /* ProfileVC.xib */,
 				4D25BE7E2691C6B20043B210 /* PresonalDetailsVC.swift */,
 				4D25BE7F2691C6B20043B210 /* PresonalDetailsVC.xib */,
+
 				DCB9022D2691A56700A95EAE /* Assets.xcassets */,
 				DCB9022F2691A56700A95EAE /* LaunchScreen.storyboard */,
 				DCB902322691A56700A95EAE /* Info.plist */,
@@ -196,7 +225,12 @@
 				577A6BE12694666D0002671F /* OrderVC.xib in Resources */,
 				573139B82692B0DC00BE6FA6 /* CartVC.xib in Resources */,
 				DCB9022E2691A56700A95EAE /* Assets.xcassets in Resources */,
+
+				8A467D112691A7A300C1054D /* Menu.xib in Resources */,
+				8A35E73326946FC100ABC6D2 /* BranchesMapVC.xib in Resources */,
+
 				573139C42692B30500BE6FA6 /* CartTVC.xib in Resources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				4D25BE7C2691A73B0043B210 /* ProfileVC.swift in Sources */,
 				4D25BE802691C6B20043B210 /* PresonalDetailsVC.swift in Sources */,
 				DCB9027226958C8100A95EAE /* CVC.swift in Sources */,
@@ -219,6 +254,7 @@
 				573139C32692B30500BE6FA6 /* CartTVC.swift in Sources */,
 				DCB9027526958C8100A95EAE /* NotConnectionVC.swift in Sources */,
 				577A6BE02694666D0002671F /* OrderVC.swift in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +323,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -342,7 +380,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -359,10 +399,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Foodie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_BUNDLE_IDENTIFIER = tesseract.uz.Foodie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -377,10 +419,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Foodie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_BUNDLE_IDENTIFIER = tesseract.uz.Foodie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
