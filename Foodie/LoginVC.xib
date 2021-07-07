@@ -11,9 +11,11 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC" customModule="Foodie" customModuleProvider="target">
             <connections>
                 <outlet property="animationView" destination="gZ2-4e-7wM" id="ZKB-jZ-4G0"/>
+                <outlet property="dataTF" destination="klZ-GW-vB4" id="H1b-6I-ru6"/>
                 <outlet property="forgotPasscode" destination="vDc-hd-xHR" id="E3m-Qq-vAX"/>
                 <outlet property="loginBtn" destination="kke-iP-LEo" id="02H-Id-roe"/>
                 <outlet property="loginView" destination="UjE-3o-Qy0" id="8dz-bn-f5H"/>
+                <outlet property="passwordTF" destination="uIy-eb-VKd" id="dQK-f8-08J"/>
                 <outlet property="stc" destination="Yfr-rC-1wZ" id="52a-08-HNm"/>
                 <outlet property="stc2" destination="8yD-kl-9Zk" id="M0C-yn-dG1"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>

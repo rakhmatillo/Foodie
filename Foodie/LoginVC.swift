@@ -17,15 +17,38 @@ class LoginVC: UIViewController {
     @IBOutlet weak var loginView: UIView!
     
     @IBOutlet weak var animationView: UIView!
+    @IBOutlet weak var dataTF: UITextField!
+    @IBOutlet weak var passwordTF: UITextField!
     
-    
+    var datePicker = UIDatePicker()
     var isPressed: Bool = false
     override func viewDidLoad() {
         super.viewDidLoad()
+        datePicker.preferredDatePickerStyle = .wheels
+        datePicker.datePickerMode = UIDatePicker.Mode.dateAndTime
+        dataTF.inputView = datePicker
+        datePicker.addTarget(self, action: #selector(pickerDateChengedValue), for: .valueChanged)
         
         setupRadius()
+        toolbar()
     }
     
+    @objc func pickerDateChengedValue() {
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd/MM/YY , HH:mm"
+        dataTF.text = dateFormatter.string(from: datePicker.date)
+        
+    }
+    func toolbar() {
+        let toolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 50))
+        toolbar.isTranslucent = true
+        let selectedBtn = UIBarButtonItem(title: "Select", style: .done, target: self, action: #selector(selectBtnPressed))
+        let spaceBtn =  UIBarButtonItem(systemItem: .flexibleSpace)
+        selectedBtn.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        dataTF.inputAccessoryView = toolbar
+        toolbar.items = [spaceBtn,selectedBtn]
+    }
     
     
     func setupRadius(){
@@ -72,6 +95,15 @@ class LoginVC: UIViewController {
             }
         }
     }
+    @objc func selectBtnPressed() {
+        if passwordTF.isFirstResponder {
+            passwordTF.resignFirstResponder()
+            dataTF.becomeFirstResponder()
+        } else {
+            dataTF.resignFirstResponder()
+        }
+    }
+
     
     
 }
